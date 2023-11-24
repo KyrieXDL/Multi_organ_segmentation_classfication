@@ -1,0 +1,20 @@
+python my_code/main_classify_organ.py \
+--data_dir '/public/pazhou/pazhou_data' \
+--batch_size 1 \
+--device 'cuda' \
+--accumulate_steps 1 \
+--save_name 'base_classify_organ_aug' \
+--task 'classify' \
+--train_transform 'trans_organ_mask_aug' \
+--val_transform 'trans_organ_mask' \
+--loss_func 'multi_asl_loss' \
+--epochs 30 \
+--schedule_type 'reduce' \
+--class_num 4 \
+--task_type 'multi' \
+--train_size 0.8 \
+--use_ema \
+--share_weight \
+--use_fp16 \
+--pretrain './model/pretrain_model/unet.pth' \
+--output_dir './model/tmp_data'
