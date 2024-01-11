@@ -1,6 +1,6 @@
 # 粤港澳大湾区（黄埔）国际算法算例大赛——急诊多器官多病种筛查 
 
-最终初赛排名rank18（private榜）
+最终初赛排名rank18（private榜），决赛rank14.
 
 ## 比赛链接
 http://123.138.24.155:30080/org/pazhoulab/competition/area/64a784500890cb0bf38b1059/content
